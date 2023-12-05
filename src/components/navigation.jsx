@@ -1,34 +1,10 @@
 import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
+import { useScrolled } from "../hooks/useScrolled";
 
-export const Navigation = (props) => {
+export const Navigation = () => {
+  const {scrolled} = useScrolled()
 
-  const [scrolled, setScrolled] = useState(false);
 
-  useEffect(() => {
-    // Función para cambiar el estado del scroll y manejar el color del navbar
-    function handleScroll() {
-      if (window.scrollY > 50) {
-        if (!scrolled) {
-          setScrolled(true);
-        }
-      } else {
-        if (scrolled) {
-          setScrolled(false);
-        }
-      }
-    }
-
-    // Agregamos el listener de scroll
-    window.addEventListener('scroll', handleScroll);
-
-    // Limpiamos el listener cuando el componente se desmonta
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [scrolled]); // Agregamos scrolled al array de dependencias
-  
   return (
     <nav id="menu" className={`navbar navbar-default navbar-fixed-top navigation ${scrolled ? 'scrolled' : ''}`}>
       <div className="container">
@@ -46,7 +22,7 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            Nevvo
+            Nevve
           </a>{" "}
         </div>
 

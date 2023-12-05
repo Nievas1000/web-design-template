@@ -4,18 +4,18 @@
     "paragraph": "Transforming ideas into captivating digital experiences. Elevate your online presence with our expert web design solutions. Let's create something extraordinary together."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Welcome to Nevve, where design meets technological excellence. Proficient in front-end technologies like React, ES6+, HTML5, and CSS3, we create visually appealing, user-centric interfaces. Our expertise extends to the back end, utilizing NodeJs, Express, and embracing microservice architectures for scalable solutions. With a proven track record, our team has contributed to operational efficiency and seamless performance in renowned companies. From bug fixes to developing REST APIs and integrating third-party libraries, we offer comprehensive skills. Our commitment to quality is evident in our involvement in CI/CD practices, ensuring efficient and error-free project delivery. Join us at Nevve for a design journey that surpasses expectations.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Exceptional Creativity and Expertise",
+      "Innovative Design Solutions",
+      "Responsive, User-Centric Solutions",
+      "Tailored Services for You"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Proven Expertise, Trusted Results",
+      "Timely Delivery, Quality Assurance",
+      "Collaborative Design Excellence",
+      "Designing Tomorrow's Experiences"
     ]
   },
   "Gallery": [
@@ -161,24 +161,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-desktop",
+      "title": "Portfolio Showcase",
+      "text": " Explore our rich portfolio of visually stunning projects that showcase our commitment to creativity and craftsmanship. Each project is a testament to our passion for design excellence."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-cogs",
+      "title": "Comprehensive Services",
+      "text": " We offer a comprehensive range of design and development services tailored to meet your unique needs. From concept to execution, our team is dedicated to delivering solutions that exceed expectations."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "icon": "fa fa-mobile",
+      "title": "Responsive Design",
+      "text": "Embrace a seamless user experience across all devices with our responsive design approach. Your website will not only look beautiful but will also function flawlessly on desktops, tablets, and mobile devices."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Creative UX Solutions",
+      "text": "Elevate user satisfaction and engagement with our focus on creative UX solutions. We blend innovative design with intuitive navigation to ensure a delightful experience for your audience."
     }
   ]
 }
