@@ -3,12 +3,12 @@ import emailjs from "emailjs-com";
 import React from "react";
 
 const initialState = {
-  name: "",
+  firstName: "",
   email: "",
   message: "",
 };
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
+  const [{ firstName, email, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -16,20 +16,25 @@ export const Contact = (props) => {
   };
   const clearState = () => setState({ ...initialState });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
-    console.log(name, email, message);
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_USER_ID")
-      .then(
-        (result) => {
-          console.log(result.text);
-          clearState();
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    if (
+      message !== "" ||
+      email !== "" ||
+      firstName !== ""){
+        let response = await fetch(
+          "https://backend-portafolio-lpbe4noe6-nievas1000.vercel.app/contact",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json;charset=utf-8",
+            },
+            body: JSON.stringify({ firstName, email, message, lastName: '' }),
+          }
+        );
+        console.log(response);
+        clearState()
+    }
   };
   return (
     <div>
@@ -51,11 +56,12 @@ export const Contact = (props) => {
                       <input
                         type="text"
                         id="name"
-                        name="name"
+                        name="firstName"
                         className="form-control"
                         placeholder="Name"
                         required
                         onChange={handleChange}
+                        value={firstName}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -70,6 +76,7 @@ export const Contact = (props) => {
                         placeholder="Email"
                         required
                         onChange={handleChange}
+                        value={email}
                       />
                       <p className="help-block text-danger"></p>
                     </div>
@@ -84,6 +91,7 @@ export const Contact = (props) => {
                     placeholder="Message"
                     required
                     onChange={handleChange}
+                    value={message}
                   ></textarea>
                   <p className="help-block text-danger"></p>
                 </div>
@@ -127,17 +135,17 @@ export const Contact = (props) => {
                 <ul>
                   <li>
                     <a href={props.data ? props.data.facebook : "/"}>
-                      <i className="fa fa-facebook"></i>
+                      <i className="fa fa-instagram"></i>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.twitter : "/"}>
-                      <i className="fa fa-twitter"></i>
+                      <i className="fa fa-github"></i>
                     </a>
                   </li>
                   <li>
                     <a href={props.data ? props.data.youtube : "/"}>
-                      <i className="fa fa-youtube"></i>
+                      <i className="fa fa-linkedin"></i>
                     </a>
                   </li>
                 </ul>

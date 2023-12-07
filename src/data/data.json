@@ -67,34 +67,34 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-paint-brush",
+      "name": "UI/UX Design",
+      "text": "Transforming concepts into visually compelling interfaces for optimal user interaction."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-desktop",
+      "name": "Responsive Web Dev",
+      "text": "Crafting adaptable websites, ensuring seamless user experiences across various devices."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cogs",
+      "name": "Full-Stack Solutions",
+      "text": "Providing end-to-end development expertise, from intuitive interfaces to robust server-side logic."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cubes",
+      "name": "Microservices Architecture",
+      "text": "Designing flexible and scalable architectures, breaking down complexity into agile and maintainable components."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-code",
+      "name": "CI/CD Integration",
+      "text": "Accelerating development cycles with continuous integration and deployment practices, ensuring fast and reliable code delivery."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "icon": "fa fa-cloud",
+      "name": "Cloud-Based Solutions",
+      "text": "Empowering applications with scalable and secure cloud architectures, leveraging AWS services for optimized performance and availability."
     }
   ],
   "Testimonials": [
