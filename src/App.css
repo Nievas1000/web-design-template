@@ -80,3 +80,7 @@ html {
     display: none
   }
 }
+
+.slick-slide{
+  height: 40% !important;
+}
